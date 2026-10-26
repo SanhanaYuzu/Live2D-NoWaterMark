@@ -1,0 +1,26 @@
+PASS 找到主窗口（精确标题） Live2D 去水印工具 v2.4.0
+     窗口出现用时 4.0s, hwnd=5112610
+PASS 抓到窗口位图 
+     画面稳定=True，用时 1.5s，尺寸=(1938, 1038)
+     颜色种类 = 310
+PASS 窗口内容不是纯色（界面真渲染） 310 种颜色
+     主色 Top5 = [((248, 250, 252), 1896902), ((255, 255, 255), 60203), ((0, 0, 0), 53554), ((71, 71, 71), 100), ((105, 105, 105), 77)]
+PASS 单一颜色占比 < 97%（有实际内容） 0.943
+     截图 → C:\Users\xihaochen\WorkBuddy\2026-08-12-17-01-00\live2d_wm\shots\gui_window.png
+     截图 → C:\Users\xihaochen\WorkBuddy\2026-08-12-17-01-00\live2d_wm\shots\gui_window_screen.png
+PASS 桌面 BitBlt 截图同样有内容（双路互证） 4896 种颜色
+PASS 拿到内置服务地址（启动诊断） http://127.0.0.1:55245/?t=M90hsVOhyA_lQ0ke8g_yw-Dm
+     GET http://127.0.0.1:55245/?t=<t> → 200, 79795 B
+PASS 内置服务返回 200 status=200
+PASS 页面含特征标记 pvCanvas 
+PASS 页面含特征标记 pvStage 
+PASS 页面含特征标记 /vendor/pixi.min.js 
+PASS 页面含特征标记 pv-tab 
+PASS 页面含特征标记 id="pvInfo" 
+PASS 同源可取 pixi.min.js status=200 476988 B
+PASS 同源可取 live2dcubismcore.min.js status=200 207155 B
+PASS 同源可取 pixi-live2d-display.min.js status=200 119922 B
+PASS 负向: 白名单外资源被拒 status=404
+PASS 负向: 无 token 调 API 被拒 status=403
+
+== FAIL 数 = 0 ==

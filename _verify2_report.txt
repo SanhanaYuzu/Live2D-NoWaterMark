@@ -1,0 +1,45 @@
+disk ui.html = 79795 B | embedded = 79795 B
+PASS 内嵌 ui.html 与磁盘字节完全一致(sha256) b0c275f012b8b2e7
+PASS 时间轴原文 }, 240); 
+PASS 时间轴原文 }, 260); 
+PASS 时间轴原文 setTimeout(splashStage2, 1450); 
+PASS 时间轴原文 }, 1470); 
+PASS 时间轴原文 }, 2450); 
+PASS 时间轴原文 splSay("就绪"), 3450); 
+PASS 时间轴原文 }, 4200); 
+PASS 行首唯一 #splashImg{ = 1
+PASS 行首唯一 #splashXhc{ = 1
+PASS 行首唯一 #splash{ = 1
+PASS 行首唯一 #barwrap{ = 1
+PASS 行首唯一 #bar{ = 1
+PASS 行首唯一 #fill{ = 1
+PASS 行首唯一 #sheen{ = 1
+PASS 行首唯一 #status{ = 1
+PASS 行首唯一 #splash.gone{ = 1
+PASS 行首唯一 #splashBox{ = 1
+   （对照）子串法 #splashImg{ = 2  ← 含 '#splash.stage2 #splashImg{' 组合选择器
+nwm_auth code 对象 24 个
+PASS nwm_auth 含字符串常量 'tiers' (75 个字符串常量)
+PASS 对照: 含 'activations' 
+PASS 负向对照: 捏造键不存在 
+PASS 定位 splash_tier code 对象 
+PASS splash_tier 不调 auth_state ← 负向对照
+PASS splash_tier 调 read_state 
+     co_names = ['Exception', '_asset_data_uri', 'bool', 'get', 'nwm_auth', 'read_state']
+   （说明）上层 '含 splash_tier' 因方法名在嵌套 code 内，顶层常量查不到 → 该检查已作废
+PASS 内嵌渲染库与磁盘一致 pixi.min.js ce14152237354383
+PASS 内嵌渲染库与磁盘一致 live2dcubismcore.min.js 25ae938cb4fe282c
+PASS 内嵌渲染库与磁盘一致 pixi-live2d-display.min.js af1267e6d52759b2
+PASS 负向: __neg_pixi__.js 不存在（正确） 
+PASS 负向: web/pixi.min.js 不存在（正确） 
+PASS live2d_preview 含 PreviewServer 
+PASS live2d_preview 含 res_path 
+PASS 负向: live2d_preview 捏造名不存在 
+PASS 定位 Moc3 类 code 对象 
+PASS Moc3._slot_valid 在字节码 
+PASS Moc3.locate_params 在字节码 
+PASS Moc3.set_default 在字节码 
+PASS 负向: Moc3 捏造方法不存在 
+     Moc3 方法数 = 13
+
+== FAIL 数 = 0 ==

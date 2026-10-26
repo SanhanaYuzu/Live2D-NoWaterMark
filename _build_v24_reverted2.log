@@ -1,0 +1,31 @@
+657 INFO: PyInstaller: 6.22.2, contrib hooks: 2026.7
+659 INFO: Python: 3.14.7
+719 INFO: Platform: Windows-11-10.0.28000-SP0
+719 INFO: Python environment: C:\Users\xihaochen\AppData\Local\Python\pythoncore-3.14-64
+3539 INFO: Module search paths (PYTHONPATH):
+['C:\\Users\\xihaochen\\WorkBuddy\\2026-08-12-17-01-00\\live2d_wm',
+ 'C:\\Program '
+ 'Files\\WorkBuddy\\resources\\app.asar.unpacked\\cli\\vendor\\shim',
+ 'C:\\Users\\xihaochen\\AppData\\Local\\Python\\pythoncore-3.14-64\\python314.zip',
+ 'C:\\Users\\xihaochen\\AppData\\Local\\Python\\pythoncore-3.14-64\\DLLs',
+ 'C:\\Users\\xihaochen\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib',
+ 'C:\\Users\\xihaochen\\AppData\\Local\\Python\\pythoncore-3.14-64',
+ 'C:\\Users\\xihaochen\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages',
+ 'C:\\Users\\xihaochen\\WorkBuddy\\2026-08-12-17-01-00\\live2d_wm',
+ 'C:\\Users\\xihaochen\\WorkBuddy\\2026-08-12-17-01-00\\live2d_wm\\vendor']
+6235 INFO: Appending 'datas' from .spec
+6238 INFO: checking Analysis
+6395 INFO: checking PYZ
+6452 INFO: checking PKG
+6491 INFO: Bootloader C:\Users\xihaochen\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\PyInstaller\bootloader\Windows-64bit-intel\runw.exe
+6492 INFO: checking EXE
+6498 INFO: Rebuilding EXE-00.toc because Live2D去水印_v24.exe missing
+6498 INFO: Building EXE from EXE-00.toc
+6499 INFO: Copying bootloader EXE to C:\Users\xihaochen\WorkBuddy\2026-08-12-17-01-00\live2d_wm\dist\Live2D去水印_v24.exe
+6725 INFO: Copying icon to EXE
+6900 INFO: Copying 0 resources to EXE
+6900 INFO: Embedding manifest in EXE
+7061 INFO: Appending PKG archive to EXE
+7301 INFO: Fixing EXE headers
+8474 INFO: Building EXE from EXE-00.toc completed successfully.
+8499 INFO: Build complete! The results are available in: C:\Users\xihaochen\WorkBuddy\2026-08-12-17-01-00\live2d_wm\dist

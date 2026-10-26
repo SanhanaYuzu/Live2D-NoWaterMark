@@ -1,0 +1,57 @@
+MODE = edge
+MODEL_DIR = E:/Nostria-试用版
+MODEL_JSON = Nostria.model3.json
+存在? True
+本地服务 http://127.0.0.1:65468/ 已启动
+启动 Edge: C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+  [POST] stage=libs ok=False
+  [POST] stage=app ok=False
+  [POST] stage=loading-model ok=None
+  [POST] stage=loaded ok=False
+  [POST] stage=rendered ok=False
+  [POST] stage=done ok=True
+耗时 5.6s
+---- 服务端访问日志（17 条）----
+  200 /                                                           8196 B  text/html
+  200 /_vendor/live2dcubismcore.min.js                          207155 B  text/javascript
+  200 /_vendor/pixi.min.js                                      476988 B  text/javascript
+  200 /_vendor/pixi-live2d-display.min.js                       119922 B  text/javascript
+  200 /Nostria.model3.json                                         659 B  application/json
+  200 /Nostria.moc3                                            6542144 B  application/octet-stream
+  200 /Nostria.4096/texture_00.png                             7032752 B  image/png
+  200 /Nostria.4096/texture_01.png                             5297922 B  image/png
+  200 /Nostria.4096/texture_03.png                             6572665 B  image/png
+  200 /Nostria.4096/texture_02.png                             6561927 B  image/png
+  200 /Nostria.4096/texture_04.png                             6355336 B  image/png
+  200 /Nostria.4096/texture_05.png                             5785458 B  image/png
+  200 /Nostria.4096/texture_06.png                             6398160 B  image/png
+  200 /Nostria.4096/texture_07.png                             5555360 B  image/png
+  200 /Nostria.4096/texture_08.png                             5018652 B  image/png
+  200 /Nostria.4096/texture_09.png                             1964266 B  image/png
+  200 /Nostria.physics3.json                                    255676 B  application/json
+---- 阶段回传（6 条）----
+  {"stage": "libs", "ok": false, "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 Edg/154.0.0.0", "pixiVer": "6.5.2", "hasCore": true, "hasLive2DModel": true, "cubismVer": "5.1.0.0"}
+  {"stage": "app", "ok": false, "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 Edg/154.0.0.0", "pixiVer": "6.5.2", "hasCore": true, "hasLive2DModel": true, "cubismVer": "5.1.0.0", "rendererType": 1, "webgl": true, "gpu": "ANGLE (AMD, AMD Radeon(TM) Graphics (0x00001636) Direct3D11 vs_5_0 ps_5_0, D3D11)"}
+  {"stage": "loading-model"}
+  {"stage": "loaded", "ok": false, "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 Edg/154.0.0.0", "pixiVer": "6.5.2", "hasCore": true, "hasLive2DModel": true, "cubismVer": "5.1.0.0", "rendererType": 1, "webgl": true, "gpu": "ANGLE (AMD, AMD Radeon(TM) Graphics (0x00001636) Direct3D11 vs_5_0 ps_5_0, D3D11)", "modelW": 4124, "modelH": 6318, "params": 804, "drawables": 1239, "partCount": 358}
+  {"stage": "rendered", "ok": false, "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 Edg/154.0.0.0", "pixiVer": "6.5.2", "hasCore": true, "hasLive2DModel": true, "cubismVer": "5.1.0.0", "rendererType": 1, "webgl": true, "gpu": "ANGLE (AMD, AMD Radeon(TM) Graphics (0x00001636) Direct3D11 vs_5_0 ps_5_0, D3D11)", "modelW": 4124, "modelH": 6318, "params": 804, "drawables": 1239, "partCount": 358}
+  {"stage": "done", "ok": true, "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 Edg/154.0.0.0", "pixiVer": "6.5.2", "hasCore": true, "hasLive2DModel": true, "cubismVer": "5.1.0.0", "rendererType": 1, "webgl": true, "gpu": "ANGLE (AMD, AMD Radeon(TM) Graphics (0x00001636) Direct3D11 vs_5_0 ps_5_0, D3D11)", "modelW": 4124, "modelH": 6318, "params": 804, "drawables": 1239, "partCount": 358, "coreCtor": "D", "coreMethods": ["addParameterValueById", "addParameterValueByIndex", "constructor", "getCanvasHeight", "getCanvasWidth", "getDrawableBlendMode", "getDrawableCount", "getDrawableCulling", "getDrawableDynamicFlagIsVisible", "getDrawableDynamicFlagOpacityDidChange", "getDrawableDynamicFlagRenderOrderDidChange", "getDrawableDynamicFlagVertexPositionsDidChange", "getDrawableDynamicFlagVisibilityDidChange", "getDrawableId", "getDrawableIds", "getDrawableIndex", "getDrawableInvertedMaskBit", "getDrawableMaskCounts", "getDrawableMasks", "getDrawableOpacity", "getDrawableRenderOrders", "getDrawableTextureIndices", "getDrawableVertexCount", "getDrawableVertexIndexCount", "getDrawableVertexIndices", "getDrawableVertexPositions", "getDrawableVertexUvs", "getDrawableVertices", "getModel", "getParameterCount", "getParameterDefaultValue", "getParameterIndex", "getParameterMaximumValue", "getParameterMinimumValue", "getParameterValueById", "getParameterValueByIndex", "getPartCount", "getPartIndex", "getPartOpacityById", "getPartOpacityByIndex", "initialize", "isUsingMasking", "loadParameters", "multiplyParameterValueById", "multiplyParameterValueByIndex", "release", "saveParameters", "setParameterValueById", "setParameterValueByIndex", "setPartOpacityById", "setPartOpacityByIndex", "update"], "coreProps": ["_drawableIds", "_model", "_notExistParameterId", "_notExistParameterValues", "_notExistPartId", "_notExistPartOpacities", "_parameterIds", "_parameterMaximumValues", "_parameterMinimumValues", "_parameterValues", "_partIds", "_partOpacities", "_savedParameters"], "hasParametersObj": false, "drawableKeys": null, "partsKeys": null, "motionGroups": ["idle"], "motionCounts": {"idle": 8}, "expressionCount": null, "driveVia": "setParameterValueByIndex", "drive": [[2, 0, 30, 0], [3, 0, 30, 0], [4, 0, 30, 0], [5, 0, 30, 0]], "partHide": [0, 1, 0], "texHistogram": {"0": 63, "1": 47, "2": 90, "3": 165, "4": 187, "5": 328, "6": 225, "7": 54, "8": 79, "9": 1}, "drawableSample": [[0, "ArtMesh3", 5, 100], [1, "ArtMesh4", 5, 68], [2, "ArtMesh6", 5, 73]], "meshApiOk": true, "uv0Len": 200, "opaqueRatio": 0.1431}
+---- 终态 ----
+  ok             = True
+  stage          = done
+  pixiVer        = 6.5.2
+  cubismVer      = 5.1.0.0
+  hasCore        = True
+  hasLive2DModel = True
+  rendererType   = 1
+  webgl          = True
+  gpu            = ANGLE (AMD, AMD Radeon(TM) Graphics (0x00001636) Direct3D11 vs_5_0 ps_5_0, D3D11)
+  modelW         = 4124
+  modelH         = 6318
+  params         = 804
+  drawables      = 1239
+  partCount      = 358
+  drive          = [[2, 0, 30, 0], [3, 0, 30, 0], [4, 0, 30, 0], [5, 0, 30, 0]]
+  opaqueRatio    = 0.1431
+  ua             = Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 Edg/154.0.0.0
+PROBE PASS

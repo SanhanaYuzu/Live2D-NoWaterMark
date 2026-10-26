@@ -1,0 +1,93 @@
+==============================================================================
+准备隔离测试目录（不碰生产模型）
+  fixture 来源 = C:\Users\xihaochen\WorkBuddy\2026-08-12-17-01-00\live2d_wm\_fixture_ui（悠小喵.pv.model3.json）
+  旧目录已归档 -> _e2e_old_160510
+  生产 moc3 sha256 = 7458b3a7f2808d22  （收尾复核未变）
+  测试 moc3 sha256 = 7458b3a7f2808d22
+==============================================================================
+服务已启动 http://127.0.0.1:60374
+------------------------------------------------------------------------------
+A. /api 鉴权（负向对照为主）
+  [PASS] A1 无 token → 403  — 实际 403 b'{"ok": false, "msg": "\xe6\x97\xa0\xe6\x95\x88 token"}'
+  [PASS] A2 错 token → 403  — 实际 403
+  [PASS] A3 头 token → 200 ok  — 实际 200 b'{"ok": true, "app": "Live2D \xe5\x8e\xbb\xe6\xb0\xb4\xe5\x8d\xb0\xe5\xb7\xa5\xe5\x85\xb7", "ver": "2.4.0"}'
+  [PASS] A4 query token → 200 ok  — 实际 200
+  [PASS] A5 裸请求带 token → 200  — HTTP/1.1 200 OK
+  [PASS] A6 裸请求无 token → 403  — HTTP/1.1 403 Forbidden
+  [PASS] A7 不返回任何 CORS 头  — CORS 头=[]
+  [PASS] A8 跨站预检 OPTIONS → 4xx（不给预检）  — 实际 405
+  [PASS] A8b 裸 OPTIONS → 405  — HTTP/1.1 405 Method Not Allowed
+  [PASS] A9 无 token 的写操作 → 403 且不动文件  — st=403 sha_same=True
+------------------------------------------------------------------------------
+B. 静态资源（字节级）
+  [PASS] B1 / → ui.html 字节完全一致  — serve=79795 disk=79795
+  [PASS] B2 /vendor/pixi.min.js 字节一致  — serve=476988 disk=476988
+  [PASS] B2 /vendor/live2dcubismcore.min.js 字节一致  — serve=207155 disk=207155
+  [PASS] B2 /vendor/pixi-live2d-display.min.js 字节一致  — serve=119922 disk=119922
+  [PASS] B2 /vendor/logo.png 字节一致  — serve=26070 disk=26070
+  [PASS] B3 /logo.png 别名可用  — 实际 200
+  [PASS] B4 白名单外 /vendor/ui.html → 404  — 实际 404
+  [PASS] B5 /vendor/../ui.html → 404（basename 白名单挡住）  — 实际 404
+------------------------------------------------------------------------------
+C. 目录绑定与元数据
+  [PASS] C0 绑定前 root 为空串  — root=''
+  [PASS] C1 未绑定目录时 /model → 409  — 实际 409
+  [PASS] C2 未绑定目录时 meta.ok=False  — {"ok": false, "msg": "尚未绑定模型目录或未选中 model3.json"}
+  [PASS] C3 set_dir 成功并发现 1 个 model3.json  — {"ok": true, "state": {"ok": true, "root": "C:\\Users\\xihaochen\\WorkBuddy\\2026-08-12-17-01-00\\live2d_wm\\_e2e", "models": ["�
+  [PASS] C4 set_dir 不存在目录 → ok=False  — {"ok": false, "msg": "目录不存在：E:\\__不存在的目录__"}
+  [PASS] C5 set_model 非法 rel → ok=False  — {"ok": false, "msg": "不是有效的 model3.json：不存在.model3.json"}
+  [PASS] C6 /api/meta ok  — {"ok": true, "model": "悠小喵.pv.model3.json", "root": "C:\\Users\\xihaochen\\WorkBuddy\\2026-08-12-17-01-00\\live2d_wm\\_e2e", "moc3": "悠小喵.
+      counts={"params": 168, "parts": 64, "groups": 11, "textures": 2, "wm_params": 2, "wm_parts": 0}  ms=43
+  [PASS] C7 参数 168 个  — 168
+  [PASS] C8 部件 64 个  — 64
+  [PASS] C9 贴图 2 张  — 2
+  [PASS] C10 全部参数都有 id，且 cdi3 提供了显示名（悠小喵.pv.model3.json）  — 首项 = {"i": 0, "pid": "ParamAngleDY", "name": "DY IN", "gid": "ParamGroup4", "gname": "九轴", "def": 0.0, "min": 0.0, "max": 1.0, "wm": false}
+  [PASS] C11 全部参数 min<def<max  — 越界 0 个：[]
+  [PASS] C12 参数 idx 连续 0..167  — 首尾=0,167
+  [PASS] C13 moc3 绝对路径不回传给前端  — moc3='悠小喵.moc3'
+  [PASS] C14 二次读 meta 命中缓存  — 首次 43 ms
+------------------------------------------------------------------------------
+D. /model 文件服务与路径安全（裸 socket）
+  [PASS] D1 model3.json 字节一致  — serve=689 disk=689
+  [PASS] D2 moc3 字节一致（6645056 B）  — serve=7458b3a7f2808d22 expect=7458b3a7f2808d22
+  [PASS] D3 moc3 Content-Type = octet-stream  — application/octet-stream
+  [PASS] D4 cdi3 Content-Type = json  — application/json; charset=utf-8
+  [PASS] D5 URL 编码穿越 → 非 200  — HTTP/1.1 403 Forbidden
+  [PASS] D6 明文 .. 穿越 → 非 200  — HTTP/1.1 403 Forbidden
+  [PASS] D7 反斜杠穿越 → 非 200  — HTTP/1.1 403 Forbidden
+  [PASS] D8 三重穿越 → 非 200  — HTTP/1.1 403 Forbidden
+  [PASS] D9 正常路径裸请求 → 200（阳性对照）  — HTTP/1.1 200 OK
+  [PASS] D10 不存在文件 → 404  — 实际 404
+  [PASS] D11 /model/ 空路径 → 非 200  — 实际 403
+------------------------------------------------------------------------------
+E. 参数写入 / 备份 / 还原
+  [PASS] E0 存在可用于测试的参数（def 严格在范围内）  — 可用 134 个，前两个=['ParamAngleX', 'ParamAngleY']
+  [PASS] E1 写入返回 ok  — {"ok": true, "changed": 2, "applied": [{"pid": "ParamAngleX", "old": 0.0, "new": 30.0, "min": -30.0, "max": 30.0, "offset": 78020}, {"pid": "ParamAngleY", "old": 0.0, "new": -30.0, "min": -30.0, "max"
+      changed=2 skipped=[] unknown=['不存在的参数'] backup=_wm_backup_20261006-160511
+  [PASS] E2 changed == 2  — changed=2
+  [PASS] E3 不存在的 pid 进 unknown  — ['不存在的参数']
+  [PASS] E4 写入内容与请求一致（new==max / new==min）  — [{"pid": "ParamAngleX", "old": 0.0, "new": 30.0, "min": -30.0, "max": 30.0, "offset": 78020}, {"pid": "ParamAngleY", "old": 0.0, "new": -30.0, "min": -30.0, "max": 30.0, "offset": 78024}]
+  [PASS] E5 写后 moc3 sha256 变化  — 7458b3a7f280 -> 0ad32d28bd25
+  [PASS] E6 文件长度未变（就地改 float32）  — 6645056
+  [PASS] E7 恰好新增 1 个备份  — 0 -> 1
+  [PASS] E8 备份目录含原 moc3 且字节等于写入前  — backup=_wm_backup_20261006-160511
+  [PASS] E9 文件长度一致（可比对）  — 6645056 vs 6645056
+  [PASS] E10 变化恰好落在请求的 2 个 float32 槽位（按 4 字节对齐）  — 实际槽位=[78020, 78024] 期望=[78020, 78024] 裸差异段=[(78022, 2), (78026, 2)]
+  [PASS] E10b 各槽位读回的 float 等于请求值  — 读回=[30.0, -30.0] 请求=[30.0, -30.0]
+  [PASS] E11 主程序 list_backups 认识预览产生的备份  — 识别 1 个：['_wm_backup_20261006-160511']
+  [PASS] E12 主程序 restore 成功  — {"ok": true, "restored": 1, "backup": "C:\\Users\\xihaochen\\WorkBuddy\\2026-08-12-17-01-00\\live2d_wm\\_e2e\\_wm_backup_20261006-160511"}
+  [PASS] E13 还原后 sha256 回到写入前  — 7458b3a7f280 vs 7458b3a7f280
+  [PASS] E14 还原后再写同值 → changed=2（证明确实回滚了）  — changed=2
+  [PASS] E15 值无变化 → changed=0 且不产生新备份  — changed=0 备份 2->2
+  [PASS] E16 空 items → ok=False  — {"ok": false, "msg": "没有要写入的参数"}
+  [PASS] E17 超范围值被 clamp 到 min  — 当前已是 min，被 skip（changed=0）
+  [PASS] E18 /api/backups 列出备份  — ["_wm_backup_20261006-160511", "_wm_backup_20261006-160513"]
+  [PASS] E19 元数据缓存已在写后失效（moc3_sig 变化）  — 1791268689625367300:6645056 -> 1791273913882367700:6645056
+------------------------------------------------------------------------------
+F. 并发（ThreadingHTTPServer）
+  [PASS] F1 4 线程并发取 moc3 全 200 且长度一致  — 0.1s [(200, 6645056), (200, 6645056), (200, 6645056), (200, 6645056)]
+------------------------------------------------------------------------------
+G. 生产文件未被触碰
+  [PASS] G1 生产 moc3 sha256 未变  — 7458b3a7f2808d22 -> 7458b3a7f2808d22
+==============================================================================
+PASS=67  FAIL=0

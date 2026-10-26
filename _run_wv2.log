@@ -1,0 +1,19 @@
+MODE = webview
+MODEL_DIR = E:/Nostria-试用版
+MODEL_JSON = Nostria.model3.json
+存在? True
+本地服务 http://127.0.0.1:65288/ 已启动
+  [POST] stage=libs ok=False
+[pywebview] Failed to delete user data folder: 'NoneType' object has no attribute 'BrowserProcessId'
+耗时 120.9s
+---- 服务端访问日志（4 条）----
+  200 /                                                           8196 B  text/html
+  200 /_vendor/live2dcubismcore.min.js                          207155 B  text/javascript
+  200 /_vendor/pixi.min.js                                      476988 B  text/javascript
+  200 /_vendor/pixi-live2d-display.min.js                       119922 B  text/javascript
+---- 阶段回传（1 条）----
+  {"stage": "libs", "ok": false, "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 Edg/154.0.0.0", "pixiVer": "6.5.2", "hasCore": true, "hasLive2DModel": true, "cubismVer": "5.1.0.0"}
+---- 终态 ----
+  ok             = False
+  err            = 超时 120s 未收到终态（已收到的阶段见下）
+PROBE FAIL

@@ -1,0 +1,13 @@
+== GUI 冒烟（打包 exe + WebView2）==
+PASS exe 产物存在 17249383 B
+PASS fixture 模型存在 悠小喵.pv.model3.json
+PASS fixture 有且只有一个 moc3 悠小喵.moc3
+启动 Live2D去水印_v24.exe（WebView2 debug port=9226）
+PASS WebView2 调试端口开放 用时 9.5s
+FAIL 找到可调试页面 target 
+PASS fixture moc3 未被改写（GUI 全程只读） 7458b3a7f2808d22
+PASS 激活码文件未被改写（冒烟没动用户授权状态） 30133d1a1fa0d183
+PASS 负向: 收尾后调试端口不再有页面（exe 已退出） 
+
+== PASS=8 FAIL=1 ==
+失败项: 找到可调试页面 target

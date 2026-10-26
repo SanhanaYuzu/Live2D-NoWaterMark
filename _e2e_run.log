@@ -1,0 +1,196 @@
+==========================================================================
+源 fixture：C:\Users\xihaochen\WorkBuddy\2026-08-12-17-01-00\live2d_wm\_fixture_ui
+源 moc3 sha256 = 7458b3a7f2808d222339018280439255e3e3ac0eca0ddaa668745733b3c1b8b2
+  旧副本挪走 → C:\Users\xihaochen\WorkBuddy\2026-08-12-17-01-00\live2d_wm\_trash\_e2e_ui_160531
+  隔离副本：C:\Users\xihaochen\WorkBuddy\2026-08-12-17-01-00\live2d_wm\_e2e_ui（复制自 C:\Users\xihaochen\WorkBuddy\2026-08-12-17-01-00\live2d_wm\_fixture_ui）
+副本 moc3 sha256（写前）= 7458b3a7f2808d222339018280439255e3e3ac0eca0ddaa668745733b3c1b8b2
+  [srv] 预览服务已启动 http://127.0.0.1:60144/
+预览服务：http://127.0.0.1:60144/  (token 24 字符)
+  [srv] 绑定模型目录 C:\Users\xihaochen\WorkBuddy\2026-08-12-17-01-00\live2d_wm\_e2e_ui（发现 2 个 model3.json）
+  [srv] 选中模型 悠小喵.pv.model3.json
+  models = ["悠小喵.model3.json", "悠小喵.pv.model3.json"]
+  写前备份 = []
+  启动 Edge（真实窗口，约 1~2 分钟）：C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+  Edge pid = 31972
+  上一轮结果挪走 → result_160531.json
+  [srv] 元数据就绪：参数 168 / 部件 64 / 组 11 / 贴图 2（55 ms）
+  [srv] 写入 moc3 默认值 1 项 → 备份 _wm_backup_20261006-160549
+  [srv] 元数据就绪：参数 168 / 部件 64 / 组 11 / 贴图 2（16 ms）
+----------------------------------------
+Exception occurred during processing of request from ('127.0.0.1', 56560)
+----------------------------------------
+Exception occurred during processing of request from ('127.0.0.1', 64489)
+Traceback (most recent call last):
+  File "C:\Users\xihaochen\AppData\Local\Python\pythoncore-3.14-64\Lib\socketserver.py", line 697, in process_request_thread
+    self.finish_request(request, client_address)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\xihaochen\AppData\Local\Python\pythoncore-3.14-64\Lib\socketserver.py", line 362, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\xihaochen\AppData\Local\Python\pythoncore-3.14-64\Lib\socketserver.py", line 766, in __init__
+    self.handle()
+    ~~~~~~~~~~~^^
+  File "C:\Users\xihaochen\AppData\Local\Python\pythoncore-3.14-64\Lib\http\server.py", line 502, in handle
+    self.handle_one_request()
+    ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\xihaochen\AppData\Local\Python\pythoncore-3.14-64\Lib\http\server.py", line 468, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+                           ~~~~~~~~~~~~~~~~~~~^^^^^^^
+  File "C:\Users\xihaochen\AppData\Local\Python\pythoncore-3.14-64\Lib\socket.py", line 729, in readinto
+    return self._sock.recv_into(b)
+           ~~~~~~~~~~~~~~~~~~~~^^^
+ConnectionResetError: [WinError 10054] 远程主机强迫关闭了一个现有的连接。
+----------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\xihaochen\AppData\Local\Python\pythoncore-3.14-64\Lib\socketserver.py", line 697, in process_request_thread
+    self.finish_request(request, client_address)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\xihaochen\AppData\Local\Python\pythoncore-3.14-64\Lib\socketserver.py", line 362, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\xihaochen\AppData\Local\Python\pythoncore-3.14-64\Lib\socketserver.py", line 766, in __init__
+    self.handle()
+    ~~~~~~~~~~~^^
+  File "C:\Users\xihaochen\AppData\Local\Python\pythoncore-3.14-64\Lib\http\server.py", line 502, in handle
+    self.handle_one_request()
+    ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\xihaochen\AppData\Local\Python\pythoncore-3.14-64\Lib\http\server.py", line 468, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+                           ~~~~~~~~~~~~~~~~~~~^^^^^^^
+  File "C:\Users\xihaochen\AppData\Local\Python\pythoncore-3.14-64\Lib\socket.py", line 729, in readinto
+    return self._sock.recv_into(b)
+           ~~~~~~~~~~~~~~~~~~~~^^^
+ConnectionResetError: [WinError 10054] 远程主机强迫关闭了一个现有的连接。
+----------------------------------------
+--------------------------------------------------------------------------
+node stdout:
+  target = http://127.0.0.1:60144/?t=hOamzgWOuwX2O1owXRkiH7-l
+    启动后 → 已请求窗口复原（windowId=626424213）
+  等待页面就绪（轮询 readyState + PV + rAF 真的会触发）…
+    readyState=complete PV=true scripts=4 vis=visible raf=true
+    就绪：visibilityState=visible，rAF 可用
+  页面就绪，用时 0.2s
+  注入驱动（24730 字符）…
+    [log warning] Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: https://html.spec.whatwg.org/multipage/canvas.html#concept-canvas-will-read-frequently
+    [log error] Failed to load resource: the server responded with a status of 403 (Forbidden)
+  驱动完成，用时 18.2s
+  截图 → C:\Users\xihaochen\WorkBuddy\2026-08-12-17-01-00\live2d_wm\shots\e2e_1_mesh_wireframe.png
+  视口缩小后 -> {"screen":[714.4,340],"rectH":340,"scale":0.0376,"fitS":0.0376,"userZoom":false,"label":"100%","modelH":319.6,"modelW":163.9,"fitsH":true,"fitsW":true}
+  切贴图页 -> {"tab":"tex","polys":1}
+  截图 → C:\Users\xihaochen\WorkBuddy\2026-08-12-17-01-00\live2d_wm\shots\e2e_2_texture_uv.png
+  切参数页 -> {"tab":"param","rows":10}
+  截图 → C:\Users\xihaochen\WorkBuddy\2026-08-12-17-01-00\live2d_wm\shots\e2e_3_param_search.png
+  切部件页 -> {"tab":"part","rows":0}
+  截图 → C:\Users\xihaochen\WorkBuddy\2026-08-12-17-01-00\live2d_wm\shots\e2e_4_part_tree.png
+  切回去水印 -> {"mode":"clean","display":"none","modelAlive":true,"listAlive":true,"diag":13}
+  截图 → C:\Users\xihaochen\WorkBuddy\2026-08-12-17-01-00\live2d_wm\shots\e2e_5_back_to_clean.png
+  原始测量值 → C:\Users\xihaochen\WorkBuddy\2026-08-12-17-01-00\live2d_wm\_e2e_result.json
+node 用时 27.1s，退出码 0
+--------------------------------------------------------------------------
+==========================================================================
+A. 页面与预览初始化
+  [PASS] A0 测量前提成立：页面可见且 requestAnimationFrame 真的在跑  — {"state": "visible", "hidden": false, "hasFocus": true, "rafWorks": true}
+  [PASS] A1 PV.ok = True（识别为本地服务托管）  — True
+  [PASS] A2 协议是 http:  — http:
+  [PASS] A3 token 由 URL 交到页面  — 长度 24
+  [PASS] A4 「去水印」模式下预览面板不占位（display:none）  — none
+  [PASS] A5 点「预览与编辑」→ data-mode 切换且面板 display:grid  — mode=preview display=grid on=True
+  [PASS] A6 模型加载完成且状态标签为「已加载」  — tag=已加载
+  [PASS] A7 页面无 JS 异常/错误日志（负向对照：不许有静默报错）  — []
+  [PASS] A8 版本号 v2.4.0 已显示  — v2.4.0
+  [PASS] A9 水印关键词表在页面侧存在（与 Python 对齐的前提）
+B. 元数据 / 裸 core 数据面
+  [PASS] B1 参数数：cdi3+moc3 元数据 == 运行时 core.parameters.count  — 168 vs 168
+  [PASS] B2 部件数：cdi3 元数据 == 运行时 core.parts.count  — 64 vs 64
+  [PASS] B3 网格数 > 0  — 236
+  [PASS] B4 贴图 URL 数 == 元数据贴图数  — 2 vs 2
+  [PASS] B5 moc3 只回传相对路径（绝对路径不外泄前端）  — 悠小喵.moc3
+  [PASS] B6 参数区定位走 cdi3 锚点  — cdi3 锚点「ParamAngleDY」
+  [PASS] B7 裸 core 上没有 getParameterCount（纠正后的 API 面事实）
+  [PASS] B8 包装层 coreModel 上有 getParameterValueByIndex
+  [PASS] B9 canvasinfo 原始值合理（宽高/PPU > 0，原点有限）  — w=4359 h=8500 ppu=4359 ox=2179.5 oy=4250
+  [PASS] B10 承载纹理的数值走裸 core 的 textureIndices（非空）  — [0, 1, 1, 1, 1, 1, 0, 1]
+C. 视口与渲染
+  [PASS] C1 舞台有真实尺寸  — 1062x340
+  [PASS] C2 渲染器是 WebGL（type==1）  — 1
+  [PASS] C3 overlay 画布 = 舞台尺寸 × 分辨率  — ov=1328x425 vs 1062.4x340@1.25
+  [PASS] C4 模型已缩放且尺寸有效  — model=4359x8500 scale=0.0376
+  [PASS] C5 ticker 在跑（动作走真实时钟的前提）
+  [PASS] C6 画面真的画出了像素（阳性对照）  — 覆盖 0.04303
+  [PASS] C7 顶部计数条把 参数/部件/网格/贴图 都写出来了  — 参数 168 · 部件 64 · 网格 236 · 贴图 2
+  [PASS] C8 模型加载耗时已记录  — 292 ms
+D. 参数编辑（滑块必须真的驱动 core 与画面）
+  [PASS] D1 参数页每个参数行都有滑块  — 168 滑块 / 168 行
+  [PASS] D2 无改动时「写入 moc3 默认值」按钮禁用（负向对照）
+  [PASS] D3 抽样 6 个参数置 max → ≥4 个改变了画面  — 5 / 6
+  [PASS] D4 用 UI 滑块拖到 max：core 参数值精确等于 max（已修漏绑事件）  — before=0 after=30 max=30
+  [PASS] D5 滑块动作真的改变了画面像素（漏绑时这条不可能通过）  — px 0.04315 → 0.04265
+  [PASS] D6 改动被记入 PV.edits（写入按钮才有东西可写）  — edits=1
+  [PASS] D7 计数与按钮状态同步刷新  — 已改 1 项运行时参数 / writeDisabled=False
+  [PASS] D8 点参数行会高亮该行（sel 生效）  — {"kind": "param", "i": 1, "rowSel": true}
+E. 部件树（显隐 / 隔离 / 恢复）
+  [PASS] E1 部件行数 == core.parts.count  — 64 vs 64
+  [PASS] E2 取消勾选 → 该部件进入隐藏集合
+  [PASS] E3 隐藏真的生效：core.parts.opacities[i] → 0  — before=1 after=0
+  [PASS] E4 行内标签与脚注计数同步  — 隐藏 / 1
+  [PASS] E5 点行 → 隔离：除该部件外全部隐藏  — setSize=63 / ptCount=64
+  [PASS] E6 「全部显示」→ 隐藏集合清空且不透明度**主动写回**原值  — setSize=0 opBack=1（core 不会自己重算，必须显式写回）
+  [PASS] E7 像素三态自洽：隐藏后画面变小；隔离后进一步变小；恢复后回到原值附近  — 原 0.04265 → 隐藏 0.02659 → 隔离 0.01122 → 恢复 0.04271（容许 ±8%，实测 physics 抖动约 1%）
+  [PASS] E8 隐藏时保存了原不透明度（恢复的依据）  — 1
+F. 网格定位（红色线框真的画上屏幕）
+  [PASS] F1 网格有顶点与三角面  — verts=79 tris=126
+  [PASS] F2 投影无 NaN（toGlobal 公式可用）  — nan=0
+  [PASS] F3 投影点落在视口内（坐标没跑飞）  — inside=79 / 79
+  [PASS] F4 overlay 上真的画出了红色线框  — redPx=2116 anyPx=2116
+  [PASS] F5 负向对照：关掉线框开关 → overlay 变全透明  — any=0
+  [PASS] F6 选中态与列表一致  — sel=0 d=0
+  [PASS] F7 选中后出现「隔离该部件」按钮
+  [PASS] F8 「隔离该部件」→ 切到部件页并只留该部件  — {"tab": "part", "setSize": 63, "ptCount": 64}
+G. 贴图与 UV 高亮
+  [PASS] G1 贴图项数与图片数都等于元数据贴图数  — items=2 imgs=2 meta=2
+  [PASS] G2 至少一张贴图真实解码成功（naturalWidth>0）  — ['8192x8192', '8192x8192']
+  [PASS] G3 选中网格在其所属贴图上生成了 UV 多边形高亮  — polygons=1 覆盖贴图数=1
+  [PASS] G3b UV 落在 0..1（否则 polygon 会被 viewBox 裁掉成为「有元素但看不见」）  — uv ∈ [0.2725, 0.3945]
+  [PASS] G3c 高亮多边形在屏幕上真有面积（不是 0×0 的空壳）  — polygon 屏幕尺寸 = [21, 24]
+  [PASS] G3d 切页签不再清掉选中态（高亮的锚点）  — 切页前 sel=1，切页后 sel=1
+  [PASS] G4 贴图页禁用「只看水印」（语义上不适用）
+H. 动作 / 表情（真实时钟）
+  [PASS] H1 动作/表情按钮来自 model3.json 声明（fixture 有 1 动作 + 3 表情）  — 共 5 个：['Idle #1', '■ 停止', '哭哭', '脸红', '水印开关']
+  [PASS] H2 播动作真的改变了参数值（固定 dt 循环做不到）  — changed=3 例=[['Param158', 0, 155.966], ['Param63', 0, 3.772], ['Param64', 0, 1.092]]
+  [PASS] H3 切表情也真的改变了参数值  — changed=3 (哭哭)
+I. 交互与自检面板
+  [PASS] I1 暂停/继续按钮真的控制 ticker  — {"started": false, "text": "继续", "flag": true, "startedBack": true, "textBack": "暂停"}
+  [PASS] I2 双击舞台 → 重新适应：scale == 双击后的 fitS，且模型真的装得进画布  — scale=0.0376 fitSAfter=0.0376 初始fitS=0.0376 装得下=True
+  [PASS] I2b 滚轮缩放后标记为用户接管（之后 resize 不再自动改写比例）  — {"scale": 0.04211, "userZoom": true, "label": "112%"}
+  [PASS] I2c 点「适应」按钮 → 比例回到 fitS 并交回自动接管  — {"scale": 0.0376, "fitS": 0.0376, "userZoom": false, "label": "100%"}
+  [PASS] I2d 真实视口变矮后模型重新适应、不再被裁（这是 E2E 抓到的真实缺陷）  — {"screen": [714.4, 340], "rectH": 340, "scale": 0.0376, "fitS": 0.0376, "userZoom": false, "label": "100%", "modelH": 319.6, "modelW": 163.9, "fitsH": true, "fitsW": true}
+  [PASS] I3 渲染自检面板有完整条目（含 GPU/覆盖像素/驱动自检/gl.getError）  — 13 行：['状态', 'PIXI', 'WebGL', 'GPU', '渲染分辨率', '模型画布', '加载耗时', '贴图', '参数 / 部件 / 网格', '参数区定位', '覆盖像素', '驱动自检', 'gl.getError']
+  [PASS] I4 自检报告的「驱动自检」命中数 > 0（设完参数必须让出一帧再读像素）  — ['5 / 6 个抽样参数改变了画面']
+  [PASS] I5 WebGL 无报错（gl.getError == 0）  — ['0（无错误）']
+  [PASS] I6 搜索过滤生效且清空后恢复全量  — {"all": 168, "filtered": 1, "back": 168}
+  [PASS] I7 「只看水印」过滤结果 == 元数据命中数（结构性正对照）  — rows=2 wmParamCount=2 label=只看水印 ✓
+  [PASS] I7b 负向对照：关掉「只看水印」行数恢复全量  — rowsBack=168 all=168
+  [PASS] I7c 负向对照：搜一个绝不存在的串 → 0 行且给空态提示  — {"rows": 0, "hasEmpty": true, "emptyText": "没有匹配的参数。\n试试清空搜索或关掉「只看水印」。"}
+  [PASS] I8 页面侧无 token 访问 /api/meta → 403（负向对照）  — {"status": 403, "ok": false, "body": "{\"ok\": false, \"msg\": \"无效 token\"}"}
+J. 写入 moc3 默认值（UI 全路径 + 备份闭环）
+  [PASS] J1 点「写入」弹出确认层
+  [PASS] J2 确认按钮文案与 moc3 相对路径写入提示  — 确认写入 / body含moc3=True
+  [PASS] J3 负向对照：点「取消」→ 弹层关闭且不落盘（moc3_sig 未变、改动保留）  — {"modalGone": true, "editsKept": true, "sigSame": true, "ms": 434}
+  [PASS] J4 写入请求内容 = 滑块改动的那 1 项  — {"n": 1, "first": {"pid": "ParamAngleX", "value": 30}}
+  [PASS] J5 点「确认写入」后流程走完（弹层关闭 + 改动清零）  — done=True edits=0 256ms
+  [PASS] J6 moc3 的 mtime:size 签名真的变了（文件被写）  — 1791268689625367300:6645056 → 1791273949737271100:6645056
+  [PASS] J7 日志区明确回显「已写入」  — ['✓ 预览已加载：悠小喵.pv.model3.json（292 ms，参数 168 / 部件 64 / 网格 236）', '✓ 已写入 1 项，备份 _wm_backup_20261006-160549（ParamAngleX 0→30）']
+  [PASS] J8 写入后备份数 +1  — 0 → 1
+  [PASS] J9 服务端独立确认：新增恰好 1 个备份目录（且是预览服务格式）  — ['_wm_backup_20261006-160549']
+  [PASS] J10 备份副本的 sha256 == 写入前的 moc3 sha256（可完整还原）  — 悠小喵.moc3 → 7458b3a7f2808d222339018280439255e3e3ac0eca0ddaa668745733b3c1b8b2
+  [PASS] J11 磁盘 moc3 与写入前不同（确实落盘了）
+  [PASS] J12 主程序解析器读回的默认值 == 写入值（ParamAngleX → 30）  — 读回 30.0
+  [PASS] J13 撤销/还原后无副作用（写入完成后改动集合为 0）  — {'edits': 0, 'px': 0.0429}
+K. 与「去水印」互不破坏 / 未触碰源数据
+  [PASS] K1 切回「去水印」→ 预览面板让位，模型与元数据仍在内存（不互相破坏）  — {"mode": "clean", "display": "none", "modelAlive": true, "listAlive": true, "diag": 13}
+  [PASS] K2 源 fixture 的 moc3 sha256 未被触碰（写入只落在工作副本上）  — C:\Users\xihaochen\WorkBuddy\2026-08-12-17-01-00\live2d_wm\_fixture_ui
+  [PASS] K3 已产出 5 张截图取证  — ['e2e_1_mesh_wireframe.png', 'e2e_2_texture_uv.png', 'e2e_3_param_search.png', 'e2e_4_part_tree.png', 'e2e_5_back_to_clean.png']
+  [PASS] K4 rAF 可用且预览帧率达到可交互水平  — ticker FPS=59.9 / shared FPS=59.9（maxFPS=30，画面 [1062, 340]，贴图 2 张）
+  [PASS] K5 rAF 兜底次数远低于调用次数（说明帧调度正常，像素证据可信）  — rAF 调用 20 次，兜底 0 次
+==========================================================================
+PASS=93 FAIL=0

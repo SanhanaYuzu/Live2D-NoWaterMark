@@ -1,0 +1,594 @@
+{
+ "errs": [],
+ "size": [
+  1328,
+  425
+ ],
+ "targetName": "Part6",
+ "dropped": [
+  27,
+  28,
+  29,
+  30,
+  31,
+  32,
+  33,
+  36,
+  37,
+  38,
+  117,
+  119,
+  120,
+  121,
+  122,
+  123,
+  124,
+  125,
+  126,
+  127,
+  128,
+  129,
+  130,
+  131,
+  132,
+  133,
+  134,
+  135,
+  136,
+  137,
+  139,
+  140
+ ],
+ "detail": [
+  {
+   "d": 27,
+   "id": "ArtMesh69",
+   "tex": 0,
+   "uvBoxPx": [
+    3844,
+    2540,
+    3921,
+    2579
+   ],
+   "masks": [],
+   "maskedBy": [],
+   "vertCount": 26,
+   "opBefore": 0.9999998807907104,
+   "opAfter": 0
+  },
+  {
+   "d": 28,
+   "id": "ArtMesh70",
+   "tex": 0,
+   "uvBoxPx": [
+    4004,
+    3092,
+    4041,
+    3165
+   ],
+   "masks": [],
+   "maskedBy": [],
+   "vertCount": 22,
+   "opBefore": 0.9999998807907104,
+   "opAfter": 0
+  },
+  {
+   "d": 29,
+   "id": "ArtMesh71",
+   "tex": 0,
+   "uvBoxPx": [
+    3380,
+    2557,
+    3795,
+    4012
+   ],
+   "masks": [],
+   "maskedBy": [],
+   "vertCount": 502,
+   "opBefore": 0.9999998807907104,
+   "opAfter": 0
+  },
+  {
+   "d": 30,
+   "id": "ArtMesh72",
+   "tex": 0,
+   "uvBoxPx": [
+    1972,
+    2551,
+    3807,
+    3345
+   ],
+   "masks": [],
+   "maskedBy": [],
+   "vertCount": 1244,
+   "opBefore": 0.9999998807907104,
+   "opAfter": 0
+  },
+  {
+   "d": 31,
+   "id": "ArtMesh73",
+   "tex": 0,
+   "uvBoxPx": [
+    2636,
+    932,
+    3813,
+    2568
+   ],
+   "masks": [],
+   "maskedBy": [],
+   "vertCount": 1008,
+   "opBefore": 0.9999998807907104,
+   "opAfter": 0
+  },
+  {
+   "d": 32,
+   "id": "ArtMesh74",
+   "tex": 0,
+   "uvBoxPx": [
+    2204,
+    3988,
+    2335,
+    4026
+   ],
+   "masks": [],
+   "maskedBy": [],
+   "vertCount": 37,
+   "opBefore": 0.9999998807907104,
+   "opAfter": 0
+  },
+  {
+   "d": 33,
+   "id": "ArtMesh75",
+   "tex": 0,
+   "uvBoxPx": [
+    2852,
+    932,
+    3040,
+    999
+   ],
+   "masks": [],
+   "maskedBy": [],
+   "vertCount": 55,
+   "opBefore": 0.9999998807907104,
+   "opAfter": 0
+  },
+  {
+   "d": 36,
+   "id": "ArtMesh78",
+   "tex": 0,
+   "uvBoxPx": [
+    3380,
+    3692,
+    3491,
+    3811
+   ],
+   "masks": [
+    38
+   ],
+   "maskedBy": [],
+   "vertCount": 63,
+   "opBefore": 0.9999998807907104,
+   "opAfter": 0
+  },
+  {
+   "d": 37,
+   "id": "ArtMesh79",
+   "tex": 3,
+   "uvBoxPx": [
+    3765,
+    3821,
+    3925,
+    3999
+   ],
+   "masks": [
+    38
+   ],
+   "maskedBy": [],
+   "vertCount": 111,
+   "opBefore": 0.9999998807907104,
+   "opAfter": 0
+  },
+  {
+   "d": 38,
+   "id": "ArtMesh80",
+   "tex": 1,
+   "uvBoxPx": [
+    2124,
+    3001,
+    2918,
+    4038
+   ],
+   "masks": [],
+   "maskedBy": [
+    34,
+    35,
+    36,
+    37,
+    119,
+    122,
+    383
+   ],
+   "vertCount": 486,
+   "opBefore": 0.9999998807907104,
+   "opAfter": 0
+  },
+  {
+   "d": 117,
+   "id": "ArtMesh64",
+   "tex": 0,
+   "uvBoxPx": [
+    4012,
+    756,
+    4028,
+    775
+   ],
+   "masks": [],
+   "maskedBy": [],
+   "vertCount": 13,
+   "opBefore": 0.9999998807907104,
+   "opAfter": 0
+  },
+  {
+   "d": 119,
+   "id": "ArtMesh108",
+   "tex": 0,
+   "uvBoxPx": [
+    4012,
+    788,
+    4026,
+    807
+   ],
+   "masks": [
+    38
+   ],
+   "maskedBy": [],
+   "vertCount": 12,
+   "opBefore": 0.9999998807907104,
+   "opAfter": 0
+  },
+  {
+   "d": 120,
+   "id": "ArtMesh67",
+   "tex": 0,
+   "uvBoxPx": [
+    1228,
+    3004,
+    1313,
+    3070
+   ],
+   "masks": [],
+   "maskedBy": [],
+   "vertCount": 31,
+   "opBefore": 0.9999998807907104,
+   "opAfter": 0
+  },
+  {
+   "d": 121,
+   "id": "ArtMesh68",
+   "tex": 0,
+   "uvBoxPx": [
+    3500,
+    3380,
+    3542,
+    3419
+   ],
+   "masks": [
+    118
+   ],
+   "maskedBy": [],
+   "vertCount": 21,
+   "opBefore": 0.9999998807907104,
+   "opAfter": 0
+  },
+  {
+   "d": 122,
+   "id": "ArtMesh66",
+   "tex": 0,
+   "uvBoxPx": [
+    4012,
+    684,
+    4023,
+    696
+   ],
+   "masks": [
+    38
+   ],
+   "maskedBy": [],
+   "vertCount": 10,
+   "opBefore": 0.9999998807907104,
+   "opAfter": 0
+  },
+  {
+   "d": 123,
+   "id": "ArtMesh309",
+   "tex": 0,
+   "uvBoxPx": [
+    2076,
+    2676,
+    2200,
+    2726
+   ],
+   "masks": [],
+   "maskedBy": [],
+   "vertCount": 40,
+   "opBefore": 0.9999998807907104,
+   "opAfter": 0
+  },
+  {
+   "d": 124,
+   "id": "ArtMesh308",
+   "tex": 0,
+   "uvBoxPx": [
+    1836,
+    2068,
+    2047,
+    2128
+   ],
+   "masks": [],
+   "maskedBy": [],
+   "vertCount": 58,
+   "opBefore": 0.9999998807907104,
+   "opAfter": 0
+  },
+  {
+   "d": 125,
+   "id": "ArtMesh307",
+   "tex": 1,
+   "uvBoxPx": [
+    2124,
+    3884,
+    2342,
+    4038
+   ],
+   "masks": [],
+   "maskedBy": [
+    126,
+    127,
+    128,
+    129,
+    384,
+    385,
+    386
+   ],
+   "vertCount": 114,
+   "opBefore": 0.9999998807907104,
+   "opAfter": 0
+  },
+  {
+   "d": 126,
+   "id": "ArtMesh306",
+   "tex": 3,
+   "uvBoxPx": [
+    3765,
+    3821,
+    3925,
+    3999
+   ],
+   "masks": [
+    125
+   ],
+   "maskedBy": [],
+   "vertCount": 111,
+   "opBefore": 0.9999998807907104,
+   "opAfter": 0
+  },
+  {
+   "d": 127,
+   "id": "ArtMesh305",
+   "tex": 0,
+   "uvBoxPx": [
+    3380,
+    3692,
+    3491,
+    3811
+   ],
+   "masks": [
+    125
+   ],
+   "maskedBy": [],
+   "vertCount": 63,
+   "opBefore": 0.9999998807907104,
+   "opAfter": 0
+  },
+  {
+   "d": 128,
+   "id": "ArtMesh304",
+   "tex": 0,
+   "uvBoxPx": [
+    4012,
+    684,
+    4023,
+    696
+   ],
+   "masks": [
+    125
+   ],
+   "maskedBy": [],
+   "vertCount": 10,
+   "opBefore": 0.9999998807907104,
+   "opAfter": 0
+  },
+  {
+   "d": 129,
+   "id": "ArtMesh303",
+   "tex": 0,
+   "uvBoxPx": [
+    4012,
+    788,
+    4026,
+    807
+   ],
+   "masks": [
+    125
+   ],
+   "maskedBy": [],
+   "vertCount": 12,
+   "opBefore": 0.9999998807907104,
+   "opAfter": 0
+  },
+  {
+   "d": 130,
+   "id": "ArtMesh302",
+   "tex": 0,
+   "uvBoxPx": [
+    2852,
+    932,
+    3040,
+    999
+   ],
+   "masks": [],
+   "maskedBy": [],
+   "vertCount": 55,
+   "opBefore": 0.9999998807907104,
+   "opAfter": 0
+  },
+  {
+   "d": 131,
+   "id": "ArtMesh301",
+   "tex": 0,
+   "uvBoxPx": [
+    2204,
+    3988,
+    2335,
+    4026
+   ],
+   "masks": [],
+   "maskedBy": [],
+   "vertCount": 37,
+   "opBefore": 0.9999998807907104,
+   "opAfter": 0
+  },
+  {
+   "d": 132,
+   "id": "ArtMesh300",
+   "tex": 0,
+   "uvBoxPx": [
+    2636,
+    932,
+    2844,
+    994
+   ],
+   "masks": [],
+   "maskedBy": [],
+   "vertCount": 51,
+   "opBefore": 0.9999998807907104,
+   "opAfter": 0
+  },
+  {
+   "d": 133,
+   "id": "ArtMesh299",
+   "tex": 0,
+   "uvBoxPx": [
+    1972,
+    3252,
+    2061,
+    3345
+   ],
+   "masks": [],
+   "maskedBy": [],
+   "vertCount": 39,
+   "opBefore": 0.9999998807907104,
+   "opAfter": 0
+  },
+  {
+   "d": 134,
+   "id": "ArtMesh298",
+   "tex": 0,
+   "uvBoxPx": [
+    3380,
+    3908,
+    3655,
+    4012
+   ],
+   "masks": [],
+   "maskedBy": [],
+   "vertCount": 95,
+   "opBefore": 0.9999998807907104,
+   "opAfter": 0
+  },
+  {
+   "d": 135,
+   "id": "ArtMesh297",
+   "tex": 0,
+   "uvBoxPx": [
+    1228,
+    3004,
+    1313,
+    3070
+   ],
+   "masks": [],
+   "maskedBy": [],
+   "vertCount": 31,
+   "opBefore": 0.9999998807907104,
+   "opAfter": 0
+  },
+  {
+   "d": 136,
+   "id": "ArtMesh296",
+   "tex": 0,
+   "uvBoxPx": [
+    4004,
+    3092,
+    4041,
+    3165
+   ],
+   "masks": [],
+   "maskedBy": [],
+   "vertCount": 22,
+   "opBefore": 0.9999998807907104,
+   "opAfter": 0
+  },
+  {
+   "d": 137,
+   "id": "ArtMesh295",
+   "tex": 0,
+   "uvBoxPx": [
+    3844,
+    2540,
+    3921,
+    2579
+   ],
+   "masks": [],
+   "maskedBy": [],
+   "vertCount": 26,
+   "opBefore": 0.9999998807907104,
+   "opAfter": 0
+  },
+  {
+   "d": 139,
+   "id": "ArtMesh293",
+   "tex": 0,
+   "uvBoxPx": [
+    3500,
+    3380,
+    3542,
+    3419
+   ],
+   "masks": [
+    138
+   ],
+   "maskedBy": [],
+   "vertCount": 21,
+   "opBefore": 0.9999998807907104,
+   "opAfter": 0
+  },
+  {
+   "d": 140,
+   "id": "ArtMesh97",
+   "tex": 0,
+   "uvBoxPx": [
+    4012,
+    756,
+    4028,
+    775
+   ],
+   "masks": [],
+   "maskedBy": [],
+   "vertCount": 13,
+   "opBefore": 0.9999998807907104,
+   "opAfter": 0
+  }
+ ],
+ "__pageErrors": [],
+ "hiddenFrame": "p10_hidden_frame.png"
+}

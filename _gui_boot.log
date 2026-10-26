@@ -1,0 +1,6 @@
+frozen=False
+url='http://127.0.0.1:59745/?t=B1jfxc3hvk1k1mh1aqs9pHdD'
+prev=<live2d_preview.PreviewServer object at 0x0000025273B9BA10>
+ui_html='C:\\Users\\xihaochen\\WorkBuddy\\2026-08-12-17-01-00\\live2d_wm\\ui.html'
+APP_DIR='C:\\Users\\xihaochen\\WorkBuddy\\2026-08-12-17-01-00\\live2d_wm'
+argv=['C:\\Users\\xihaochen\\WorkBuddy\\2026-08-12-17-01-00\\live2d_wm\\live2d_wm_web.py']

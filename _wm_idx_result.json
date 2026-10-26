@@ -1,0 +1,36 @@
+{
+ "errs": [],
+ "idx": {
+  "d387_ArtMesh391": {
+   "len": 1044,
+   "nonzero": 0,
+   "max": 0
+  },
+  "d388_ArtMesh392": {
+   "len": 3240,
+   "nonzero": 0,
+   "max": 0
+  },
+  "d389_ArtMesh394": {
+   "len": 999,
+   "nonzero": 0,
+   "max": 0
+  },
+  "d390_ArtMesh395": {
+   "len": 3144,
+   "nonzero": 0,
+   "max": 0
+  },
+  "d391_ArtMesh56": {
+   "len": 1251,
+   "nonzero": 0,
+   "max": 0
+  },
+  "d392_ArtMesh393": {
+   "len": 2580,
+   "nonzero": 0,
+   "max": 0
+  }
+ },
+ "__pageErrors": []
+}

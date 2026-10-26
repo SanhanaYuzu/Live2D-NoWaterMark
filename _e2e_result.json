@@ -1,0 +1,569 @@
+{
+ "errs": [],
+ "visibility": {
+  "state": "visible",
+  "hidden": false,
+  "hasFocus": true,
+  "rafWorks": true
+ },
+ "url": "http://127.0.0.1:60144/?t=<token>",
+ "proto": "http:",
+ "pvOk": true,
+ "tokenLen": 24,
+ "base": "http://127.0.0.1:60144",
+ "paneDisplayClean": "none",
+ "modeClean": "",
+ "verTag": "v2.4.0",
+ "wmKeysAligned": true,
+ "docTitle": "Live2D 去水印工具",
+ "modeAfterSwitch": "preview",
+ "paneDisplayPreview": "grid",
+ "modeBtnOn": true,
+ "loaded": true,
+ "loadingFlag": false,
+ "hintHtml": "",
+ "tagText": "已加载",
+ "meta": {
+  "model": "悠小喵.pv.model3.json",
+  "moc3": "悠小喵.moc3",
+  "cdi3": "悠小喵.cdi3.json",
+  "anchored": true,
+  "locate": "cdi3 锚点「ParamAngleDY」",
+  "counts": {
+   "params": 168,
+   "parts": 64,
+   "groups": 11,
+   "textures": 2,
+   "wm_params": 2,
+   "wm_parts": 0
+  },
+  "ms": 55,
+  "moc3_bytes": 6645056,
+  "moc3_sig": "1791268689625367300:6645056",
+  "root_has_abs": true,
+  "moc3_is_abs": false,
+  "url_count": 2,
+  "url_moc3": "/model/%E6%82%A0%E5%B0%8F%E5%96%B5.moc3",
+  "url_model3": "/model/%E6%82%A0%E5%B0%8F%E5%96%B5.pv.model3.json"
+ },
+ "core": {
+  "paCount": 168,
+  "ptCount": 64,
+  "drCount": 236,
+  "paIds0": [
+   "ParamAngleDY",
+   "ParamAngleX",
+   "ParamAngleY",
+   "ParamAngleZ"
+  ],
+  "ptIds0": [
+   "Part",
+   "Part6",
+   "Part11",
+   "Part29"
+  ],
+  "drTex": [
+   0,
+   1,
+   1,
+   1,
+   1,
+   1,
+   0,
+   1,
+   0,
+   1,
+   1,
+   1,
+   1,
+   1,
+   0,
+   1
+  ],
+  "paTypes": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "canvas": {
+   "w": 4359,
+   "h": 8500,
+   "ppu": 4359,
+   "ox": 2179.5,
+   "oy": 4250
+  },
+  "hasIdxMethods": true,
+  "rawHasNoGetParam": true
+ },
+ "stage": {
+  "canvasW": 1062.4,
+  "canvasH": 340,
+  "res": 1.25,
+  "ovW": 1328,
+  "ovH": 425,
+  "rectW": 1062,
+  "rectH": 340,
+  "modelW": 4359,
+  "modelH": 8500,
+  "scale": 0.0376,
+  "zoomLabel": "100%",
+  "rendererType": 1,
+  "tickerStarted": true,
+  "maxFPS": 30
+ },
+ "countsText": "参数 168 · 部件 64 · 网格 236 · 贴图 2",
+ "loadMs": 292,
+ "logTail": [
+  "✓ 预览已加载：悠小喵.pv.model3.json（292 ms，参数 168 / 部件 64 / 网格 236）"
+ ],
+ "paramTab": {
+  "rows": 168,
+  "sliders": 168,
+  "labels": 168,
+  "foot": "已改 0 项运行时参数\n写入 moc3 默认值\n撤销改动\n滑块只改运行时，写入才落盘（自动备份）",
+  "writeDisabled": true,
+  "resetDisabled": true
+ },
+ "pixels0": 0.04303,
+ "drive": [
+  {
+   "i": 1,
+   "pid": "ParamAngleX",
+   "before": 0,
+   "max": 30,
+   "pixBase": 0.04303,
+   "pixMax": 0.04313,
+   "moved": true
+  },
+  {
+   "i": 33,
+   "pid": "Param65",
+   "before": 0,
+   "max": 1,
+   "pixBase": 0.04318,
+   "pixMax": 0.04321,
+   "moved": true
+  },
+  {
+   "i": 67,
+   "pid": "Param39",
+   "before": 0,
+   "max": 30,
+   "pixBase": 0.04343,
+   "pixMax": 0.04344,
+   "moved": false
+  },
+  {
+   "i": 100,
+   "pid": "Param74",
+   "before": 0,
+   "max": 30,
+   "pixBase": 0.04348,
+   "pixMax": 0.04342,
+   "moved": true
+  },
+  {
+   "i": 134,
+   "pid": "Param52",
+   "before": 0,
+   "max": 1,
+   "pixBase": 0.04332,
+   "pixMax": 0.04293,
+   "moved": true
+  },
+  {
+   "i": 167,
+   "pid": "Param_Angle_Rotation_17_ArtMesh212",
+   "before": 0,
+   "max": 45,
+   "pixBase": 0.04321,
+   "pixMax": 0.04317,
+   "moved": true
+  }
+ ],
+ "driveMoved": 5,
+ "sliderPick": 1,
+ "sliderRowFound": true,
+ "sliderBefore": {
+  "core": 0,
+  "px": 0.04315,
+  "label": "0",
+  "edits": 0
+ },
+ "sliderAfter": {
+  "core": 30,
+  "px": 0.04265,
+  "label": "30",
+  "edits": 1,
+  "hasEdit": true,
+  "editVal": 30,
+  "footHtml": "已改 1 项运行时参数",
+  "writeDisabled": false
+ },
+ "paramSel": {
+  "kind": "param",
+  "i": 1,
+  "rowSel": true
+ },
+ "partPixels0": 0.04265,
+ "partTab": {
+  "rows": 64,
+  "boxes": 64,
+  "tabOn": true,
+  "foot": "已隐藏 0 / 64 个部件\n全部显示\n勾选控制显隐，可用来定位水印所在的部件"
+ },
+ "partHide": {
+  "idx": 3,
+  "opBefore": 1,
+  "inSet": true,
+  "opAfter": 0,
+  "pxHid": 0.02659,
+  "savedOp0": 1,
+  "count": "1",
+  "rowLabel": "隐藏"
+ },
+ "partIso": {
+  "setSize": 63,
+  "ptCount": 64,
+  "targetHidden": false,
+  "othersHidden": true,
+  "pxIso": 0.01122
+ },
+ "partShowAll": {
+  "setSize": 0,
+  "opBack": 1,
+  "pxBack": 0.04271,
+  "count": "0"
+ },
+ "meshTab": {
+  "rows": 236,
+  "foot": "点一行可在预览上画红色线框，并在「贴图」页高亮它占用的区域。\n共 236 个网格"
+ },
+ "overlayBeforeBlank": true,
+ "mesh": {
+  "d": 0,
+  "verts": 79,
+  "tris": 126,
+  "nanPts": 0,
+  "insidePts": 79,
+  "samplePts": [
+   [
+    533,
+    85.4
+   ],
+   [
+    537.5,
+    86
+   ],
+   [
+    542.5,
+    90.1
+   ],
+   [
+    546.5,
+    94.6
+   ],
+   [
+    547.1,
+    97
+   ]
+  ],
+  "ovAny": 2116,
+  "ovRed": 2116,
+  "ovPx": 564400,
+  "sel": 0,
+  "footHasIso": true,
+  "ovAnyAfterToggleOff": 0
+ },
+ "meshIso": {
+  "tab": "part",
+  "setSize": 63,
+  "ptCount": 64
+ },
+ "meshPickBeforeTex": {
+  "d": 1,
+  "sel": 1
+ },
+ "tex": {
+  "items": 2,
+  "imgs": 2,
+  "natural": [
+   "8192x8192",
+   "8192x8192"
+  ],
+  "complete": [
+   true,
+   true
+  ],
+  "sizes": [
+   "8192×8192",
+   "8192×8192"
+  ],
+  "metaTex": 2,
+  "polyTot": 1,
+  "polySvgs": 1,
+  "uvMin": 0.2725,
+  "uvMax": 0.3945,
+  "polyBox": [
+   21,
+   24
+  ],
+  "selKeptAcrossTab": 1,
+  "svgSized": 2,
+  "foot": "共 2 张贴图。红框为当前选中网格占用的 UV 区域。",
+  "wmOnlyDisabled": true
+ },
+ "motionBtns": {
+  "total": 5,
+  "labels": [
+   "Idle #1",
+   "■ 停止",
+   "哭哭",
+   "脸红",
+   "水印开关"
+  ]
+ },
+ "motion": {
+  "label": "Idle #1",
+  "changed": 3,
+  "changedIdx": [
+   [
+    "Param158",
+    0,
+    155.966
+   ],
+   [
+    "Param63",
+    0,
+    3.772
+   ],
+   [
+    "Param64",
+    0,
+    1.092
+   ]
+  ]
+ },
+ "expression": {
+  "label": "哭哭",
+  "changed": 3,
+  "cls": "pv-mbtn on"
+ },
+ "pause": {
+  "started": false,
+  "text": "继续",
+  "flag": true,
+  "startedBack": true,
+  "textBack": "暂停"
+ },
+ "zoom": {
+  "label": "100%",
+  "scaleBefore": 0.0376,
+  "fitSBefore": 0.0376,
+  "userZoomBefore": false,
+  "screen": [
+   1062.4,
+   340
+  ],
+  "scaleAfterDbl": 0.0376,
+  "fitSAfter": 0.0376,
+  "userZoomAfter": false,
+  "labelAfter": "100%",
+  "fitsInBox": true,
+  "afterWheel": {
+   "scale": 0.04211,
+   "userZoom": true,
+   "label": "112%"
+  },
+  "afterFitBtn": {
+   "scale": 0.0376,
+   "fitS": 0.0376,
+   "userZoom": false,
+   "label": "100%"
+  }
+ },
+ "diag": {
+  "dtCount": 13,
+  "btnText": "重新自检",
+  "rows": [
+   [
+    "状态",
+    "渲染中"
+   ],
+   [
+    "PIXI",
+    "6.5.2"
+   ],
+   [
+    "WebGL",
+    "WebGL 2.0 (OpenGL ES 3.0 Chromium)"
+   ],
+   [
+    "GPU",
+    "ANGLE (AMD, AMD Radeon(TM) Graphics (0x00001636) Direct3D11 vs_5_0 ps_5_0, D3D11)"
+   ],
+   [
+    "渲染分辨率",
+    "1328×425 @1.25x"
+   ],
+   [
+    "模型画布",
+    "4359×8500（PPU 4359）"
+   ],
+   [
+    "加载耗时",
+    "292 ms"
+   ],
+   [
+    "贴图",
+    "2 张"
+   ],
+   [
+    "参数 / 部件 / 网格",
+    "168 / 64 / 236"
+   ],
+   [
+    "参数区定位",
+    "cdi3 锚点 · cdi3 锚点「ParamAngleDY」"
+   ],
+   [
+    "覆盖像素",
+    "4.29%"
+   ],
+   [
+    "驱动自检",
+    "5 / 6 个抽样参数改变了画面"
+   ],
+   [
+    "gl.getError",
+    "0（无错误）"
+   ]
+  ]
+ },
+ "fps": {
+  "ticker": 59.9,
+  "shared": 59.9,
+  "maxFPS": 30,
+  "screen": [
+   1062,
+   340
+  ],
+  "textures": 2
+ },
+ "search": {
+  "all": 168,
+  "filtered": 1,
+  "back": 168
+ },
+ "wmOnly": {
+  "on": true,
+  "rows": 2,
+  "wmParamCount": 2,
+  "label": "只看水印 ✓",
+  "hits": [
+   "Param85=水印开关",
+   "Param84=----水印----"
+  ],
+  "rowsBack": 168
+ },
+ "searchNone": {
+  "rows": 0,
+  "hasEmpty": true,
+  "emptyText": "没有匹配的参数。\n试试清空搜索或关掉「只看水印」。"
+ },
+ "apiNoToken": {
+  "status": 403,
+  "ok": false,
+  "body": "{\"ok\": false, \"msg\": \"无效 token\"}"
+ },
+ "backupsBefore": {
+  "status": 200,
+  "n": 0,
+  "names": []
+ },
+ "writeModal": {
+  "exists": true,
+  "okText": "确认写入",
+  "bodyHasMoc3": true,
+  "bodyLen": 104
+ },
+ "writeCancel": {
+  "modalGone": true,
+  "editsKept": true,
+  "sigSame": true,
+  "ms": 434
+ },
+ "writeRequest": {
+  "n": 1,
+  "first": {
+   "pid": "ParamAngleX",
+   "value": 30
+  }
+ },
+ "writeDone": true,
+ "writeWaitMs": 256,
+ "writeAfter": {
+  "edits": 0,
+  "sigBefore": "1791268689625367300:6645056",
+  "sigAfter": "1791273949737271100:6645056",
+  "sigChanged": true,
+  "modalGone": true,
+  "logTail": [
+   "✓ 预览已加载：悠小喵.pv.model3.json（292 ms，参数 168 / 部件 64 / 网格 236）",
+   "✓ 已写入 1 项，备份 _wm_backup_20261006-160549（ParamAngleX 0→30）"
+  ],
+  "countsText": "参数 168 · 部件 64 · 网格 236 · 贴图 2"
+ },
+ "backupsAfter": {
+  "n": 1,
+  "names": [
+   "_wm_backup_20261006-160549"
+  ]
+ },
+ "resetAfterWrite": {
+  "edits": 0,
+  "px": 0.0429
+ },
+ "finalTab": "mesh",
+ "finalErrs": [],
+ "rafFallbacks": 0,
+ "rafCalls": 20,
+ "visibilityEnd": {
+  "state": "visible",
+  "hasFocus": true
+ },
+ "__driveMs": 18218,
+ "__pageErrors": [],
+ "__pageLogs": [
+  "log: \n %c %c %c PixiJS 6.5.2 - ✰ WebGL 2 ✰  %c  %c  http://www.pixijs.com/  %c %c ♥%c♥%c♥ \n\n background: #ff66a5; padding:5px 0; background: #ff66a5; padding:5px 0; color: #ff66a5; background: #030307; padding:5px 0; background: #ff66a5; padding:5px 0; background: #ffc3dc; padding:5px 0; background: #ff66a5; padding:5px 0; color: #ff2424; background: #fff; padding:5px 0; color: #ff2424; background: #fff; padding:5px 0; color: #ff2424; background: #fff; padding:5px 0;",
+  "log: [CSM][I]Live2D Cubism Core version: 05.01.0000 (83951616)\n",
+  "log: [CSM][I]CubismFramework.startUp() is complete.\n",
+  "log: [CSM][I]CubismFramework.initialize() is complete.\n",
+  "log: Live2D Cubism SDK Core Version 5.1.0",
+  "warning: Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: https://html.spec.whatwg.org/multipage/canvas.html#concept-canvas-will-read-frequently",
+  "error: Failed to load resource: the server responded with a status of 403 (Forbidden)"
+ ],
+ "viewportShrink": {
+  "screen": [
+   714.4,
+   340
+  ],
+  "rectH": 340,
+  "scale": 0.0376,
+  "fitS": 0.0376,
+  "userZoom": false,
+  "label": "100%",
+  "modelH": 319.6,
+  "modelW": 163.9,
+  "fitsH": true,
+  "fitsW": true
+ },
+ "modeBack": {
+  "mode": "clean",
+  "display": "none",
+  "modelAlive": true,
+  "listAlive": true,
+  "diag": 13
+ }
+}

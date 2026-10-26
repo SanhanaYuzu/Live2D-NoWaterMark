@@ -1,0 +1,111 @@
+574 INFO: PyInstaller: 6.22.3, contrib hooks: 2026.8
+575 INFO: Python: 3.14.7
+637 INFO: Platform: Windows-11-10.0.28000-SP0
+637 INFO: Python environment: C:\Users\xihaochen\AppData\Local\Python\pythoncore-3.14-64
+859 WARNING: Failed to collect submodules for 'webview.platforms.android' because importing 'webview.platforms.android' raised: ModuleNotFoundError: No module named 'android'
+4082 INFO: Module search paths (PYTHONPATH):
+['C:\\Users\\xihaochen\\WorkBuddy\\2026-08-12-17-01-00\\live2d_wm',
+ 'C:\\tmp\\pylibs',
+ 'C:\\Users\\xihaochen\\AppData\\Local\\Python\\pythoncore-3.14-64\\python314.zip',
+ 'C:\\Users\\xihaochen\\AppData\\Local\\Python\\pythoncore-3.14-64\\DLLs',
+ 'C:\\Users\\xihaochen\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib',
+ 'C:\\Users\\xihaochen\\AppData\\Local\\Python\\pythoncore-3.14-64',
+ 'C:\\Users\\xihaochen\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages',
+ 'C:\\Users\\xihaochen\\WorkBuddy\\2026-08-12-17-01-00\\live2d_wm']
+6507 INFO: Appending 'datas' from .spec
+6509 INFO: checking Analysis
+6510 INFO: Building Analysis because Analysis-00.toc is non existent
+6510 INFO: Looking for Python shared library...
+6510 INFO: Using Python shared library: C:\Users\xihaochen\AppData\Local\Python\pythoncore-3.14-64\python314.dll
+6510 INFO: Running Analysis Analysis-00.toc
+6510 INFO: Target bytecode optimization level: 0
+6510 INFO: Initializing module dependency graph...
+6516 INFO: Initializing module graph hook caches...
+6580 INFO: Analyzing modules for base_library.zip ...
+11940 INFO: Processing standard module hook 'hook-encodings.py' from 'C:\\tmp\\pylibs\\PyInstaller\\hooks'
+13336 INFO: Processing standard module hook 'hook-pickle.py' from 'C:\\tmp\\pylibs\\PyInstaller\\hooks'
+13503 INFO: Processing standard module hook 'hook-math.py' from 'C:\\tmp\\pylibs\\PyInstaller\\hooks'
+13805 INFO: Processing standard module hook 'hook-difflib.py' from 'C:\\tmp\\pylibs\\PyInstaller\\hooks'
+13835 INFO: Processing standard module hook 'hook-heapq.py' from 'C:\\tmp\\pylibs\\PyInstaller\\hooks'
+19170 INFO: Caching module dependency graph...
+19230 INFO: Analyzing C:\Users\xihaochen\WorkBuddy\2026-08-12-17-01-00\live2d_wm\live2d_wm_web.py
+19452 INFO: Processing standard module hook 'hook-sysconfig.py' from 'C:\\tmp\\pylibs\\PyInstaller\\hooks'
+19465 INFO: Processing standard module hook 'hook-_ctypes.py' from 'C:\\tmp\\pylibs\\PyInstaller\\hooks'
+19476 INFO: Processing pre-find-module-path hook 'hook-tkinter.py' from 'C:\\tmp\\pylibs\\PyInstaller\\hooks\\pre_find_module_path'
+19482 INFO: TclTkInfo: initializing cached Tcl/Tk info...
+20500 INFO: Processing standard module hook 'hook-_tkinter.py' from 'C:\\tmp\\pylibs\\PyInstaller\\hooks'
+20626 INFO: Processing standard module hook 'hook-webview.py' from 'C:\\tmp\\pylibs\\webview\\__pyinstaller'
+20793 INFO: Processing standard module hook 'hook-platform.py' from 'C:\\tmp\\pylibs\\PyInstaller\\hooks'
+21206 INFO: Processing standard module hook 'hook-webbrowser.py' from 'C:\\tmp\\pylibs\\PyInstaller\\hooks'
+22185 INFO: Processing standard module hook 'hook-multiprocessing.util.py' from 'C:\\tmp\\pylibs\\PyInstaller\\hooks'
+22351 INFO: Processing standard module hook 'hook-xml.py' from 'C:\\tmp\\pylibs\\PyInstaller\\hooks'
+23659 INFO: Processing pre-safe-import-module hook 'hook-typing_extensions.py' from 'C:\\tmp\\pylibs\\PyInstaller\\hooks\\pre_safe_import_module'
+23665 INFO: SetuptoolsInfo: initializing cached setuptools info...
+27401 INFO: Processing pre-safe-import-module hook 'hook-gi.py' from 'C:\\tmp\\pylibs\\PyInstaller\\hooks\\pre_safe_import_module'
+27734 INFO: Processing standard module hook 'hook-clr.py' from 'C:\\tmp\\pylibs\\pythonnet\\_pyinstaller'
+27781 INFO: Processing standard module hook 'hook-clr_loader.py' from 'C:\\tmp\\pylibs\\_pyinstaller_hooks_contrib\\stdhooks'
+27999 INFO: Processing standard module hook 'hook-pycparser.py' from 'C:\\tmp\\pylibs\\_pyinstaller_hooks_contrib\\stdhooks'
+28373 INFO: Processing standard module hook 'hook-setuptools.py' from 'C:\\tmp\\pylibs\\PyInstaller\\hooks'
+28412 INFO: Processing pre-safe-import-module hook 'hook-distutils.py' from 'C:\\tmp\\pylibs\\PyInstaller\\hooks\\pre_safe_import_module'
+28495 INFO: Processing pre-safe-import-module hook 'hook-jaraco.py' from 'C:\\tmp\\pylibs\\PyInstaller\\hooks\\pre_safe_import_module'
+28498 INFO: Setuptools: 'jaraco' appears to be a full setuptools-vendored copy - creating alias to 'setuptools._vendor.jaraco'!
+28540 INFO: Processing pre-safe-import-module hook 'hook-more_itertools.py' from 'C:\\tmp\\pylibs\\PyInstaller\\hooks\\pre_safe_import_module'
+28543 INFO: Setuptools: 'more_itertools' appears to be a setuptools-vendored copy - creating alias to 'setuptools._vendor.more_itertools'!
+28872 INFO: Processing standard module hook 'hook-_osx_support.py' from 'C:\\tmp\\pylibs\\PyInstaller\\hooks'
+28909 INFO: Processing pre-safe-import-module hook 'hook-packaging.py' from 'C:\\tmp\\pylibs\\PyInstaller\\hooks\\pre_safe_import_module'
+29515 INFO: Processing standard module hook 'hook-setuptools._vendor.jaraco.text.py' from 'C:\\tmp\\pylibs\\PyInstaller\\hooks'
+29520 INFO: Processing pre-safe-import-module hook 'hook-importlib_resources.py' from 'C:\\tmp\\pylibs\\PyInstaller\\hooks\\pre_safe_import_module'
+29542 INFO: Processing pre-safe-import-module hook 'hook-backports.py' from 'C:\\tmp\\pylibs\\PyInstaller\\hooks\\pre_safe_import_module'
+29545 INFO: Setuptools: 'backports' appears to be a full setuptools-vendored copy - creating alias to 'setuptools._vendor.backports'!
+30781 INFO: Processing pre-safe-import-module hook 'hook-tomli.py' from 'C:\\tmp\\pylibs\\PyInstaller\\hooks\\pre_safe_import_module'
+30784 INFO: Setuptools: 'tomli' appears to be a setuptools-vendored copy - creating alias to 'setuptools._vendor.tomli'!
+32056 INFO: Processing pre-safe-import-module hook 'hook-wheel.py' from 'C:\\tmp\\pylibs\\PyInstaller\\hooks\\pre_safe_import_module'
+32058 INFO: Setuptools: 'wheel' appears to be a setuptools-vendored copy - creating alias to 'setuptools._vendor.wheel'!
+33711 INFO: Processing standard module hook 'hook-xml.etree.cElementTree.py' from 'C:\\tmp\\pylibs\\PyInstaller\\hooks'
+33894 INFO: Analyzing hidden import 'webview.__pyinstaller'
+33898 INFO: Analyzing hidden import 'webview.__pyinstaller.hook-webview'
+33960 INFO: Processing pre-safe-import-module hook 'hook-importlib_metadata.py' from 'C:\\tmp\\pylibs\\PyInstaller\\hooks\\pre_safe_import_module'
+33963 INFO: Setuptools: 'importlib_metadata' appears to be a setuptools-vendored copy - creating alias to 'setuptools._vendor.importlib_metadata'!
+34048 INFO: Processing standard module hook 'hook-setuptools._vendor.importlib_metadata.py' from 'C:\\tmp\\pylibs\\PyInstaller\\hooks'
+34130 INFO: Processing pre-safe-import-module hook 'hook-zipp.py' from 'C:\\tmp\\pylibs\\PyInstaller\\hooks\\pre_safe_import_module'
+34132 INFO: Setuptools: 'zipp' appears to be a setuptools-vendored copy - creating alias to 'setuptools._vendor.zipp'!
+34207 INFO: Processing standard module hook 'hook-win32ctypes.core.py' from 'C:\\tmp\\pylibs\\PyInstaller\\hooks'
+39913 INFO: Analyzing hidden import 'webview._version'
+39916 INFO: Processing module hooks (post-graph stage)...
+39917 WARNING: Hidden import "pycparser.lextab" not found!
+39917 WARNING: Hidden import "pycparser.yacctab" not found!
+40323 INFO: Processing standard module hook 'hook-_tkinter.py' from 'C:\\tmp\\pylibs\\PyInstaller\\hooks'
+40347 INFO: Performing binary vs. data reclassification (35 entries)
+40437 INFO: Looking for ctypes DLLs
+40644 INFO: Analyzing run-time hooks ...
+40650 INFO: Including run-time hook 'pyi_rth_inspect.py' from 'C:\\tmp\\pylibs\\PyInstaller\\hooks\\rthooks'
+40660 INFO: Including run-time hook 'pyi_rth_pkgutil.py' from 'C:\\tmp\\pylibs\\PyInstaller\\hooks\\rthooks'
+40666 INFO: Including run-time hook 'pyi_rth_multiprocessing.py' from 'C:\\tmp\\pylibs\\PyInstaller\\hooks\\rthooks'
+40673 INFO: Including run-time hook 'pyi_rth_setuptools.py' from 'C:\\tmp\\pylibs\\PyInstaller\\hooks\\rthooks'
+40678 INFO: Including run-time hook 'pyi_rth__tkinter.py' from 'C:\\tmp\\pylibs\\PyInstaller\\hooks\\rthooks'
+40699 INFO: Creating base_library.zip...
+40743 INFO: Looking for dynamic libraries
+43401 INFO: Extra DLL search directories (AddDllDirectory): []
+43401 INFO: Extra DLL search directories (PATH): []
+44309 INFO: Warnings written to C:\Users\xihaochen\WorkBuddy\2026-08-12-17-01-00\live2d_wm\build\Live2D去水印_v232\warn-Live2D去水印_v232.txt
+44399 INFO: Graph cross-reference written to C:\Users\xihaochen\WorkBuddy\2026-08-12-17-01-00\live2d_wm\build\Live2D去水印_v232\xref-Live2D去水印_v232.html
+44467 INFO: checking PYZ
+44467 INFO: Building PYZ because PYZ-00.toc is non existent
+44467 INFO: Building PYZ (ZlibArchive) C:\Users\xihaochen\WorkBuddy\2026-08-12-17-01-00\live2d_wm\build\Live2D去水印_v232\PYZ-00.pyz
+45010 INFO: Building PYZ (ZlibArchive) C:\Users\xihaochen\WorkBuddy\2026-08-12-17-01-00\live2d_wm\build\Live2D去水印_v232\PYZ-00.pyz completed successfully.
+45035 INFO: checking PKG
+45035 INFO: Building PKG because PKG-00.toc is non existent
+45036 INFO: Building PKG (CArchive) Live2D去水印_v232.pkg
+47212 INFO: Building PKG (CArchive) Live2D去水印_v232.pkg completed successfully.
+47216 INFO: Bootloader C:\tmp\pylibs\PyInstaller\bootloader\Windows-64bit-intel\runw.exe
+47217 INFO: checking EXE
+47217 INFO: Building EXE because EXE-00.toc is non existent
+47217 INFO: Building EXE from EXE-00.toc
+47217 INFO: Copying bootloader EXE to C:\Users\xihaochen\WorkBuddy\2026-08-12-17-01-00\live2d_wm\dist\Live2D去水印_v232.exe
+47350 INFO: Copying icon to EXE
+47444 INFO: Copying 0 resources to EXE
+47444 INFO: Embedding manifest in EXE
+47531 INFO: Appending PKG archive to EXE
+47685 INFO: Fixing EXE headers
+48249 INFO: Building EXE from EXE-00.toc completed successfully.
+48256 INFO: Build complete! The results are available in: C:\Users\xihaochen\WorkBuddy\2026-08-12-17-01-00\live2d_wm\dist

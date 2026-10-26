@@ -1,0 +1,7 @@
+模式 = 本地文件  C:\Users\xihaochen\WorkBuddy\2026-08-12-17-01-00\live2d_wm\_probe_bridge.html
+文件存在 = True
+超时 25s 无回传
+[pywebview] Failed to delete user data folder: 'NoneType' object has no attribute 'BrowserProcessId'
+耗时 25.0s
+收到 0 条: []
+BRIDGE FAIL
